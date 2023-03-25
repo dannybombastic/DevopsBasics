@@ -25,7 +25,7 @@ steps:
   inputs:
     SourceFolder: '$(agent.builddirectory)'
     Contents: '**/.war'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    TargetFolder: '/home/vsts/work/1/a'
 
 - task: PublishBuildArtifacts@1
   inputs:
