@@ -25,7 +25,7 @@ steps:
 - task: CopyFiles@2
   inputs:
     SourceFolder: '/home/vsts/work/1/s/webapp/target'
-    Contents: '**/.war'
+    Contents: '*.war'
     TargetFolder: '/home/vsts/work/1/a'
 
 - task: PublishBuildArtifacts@1
